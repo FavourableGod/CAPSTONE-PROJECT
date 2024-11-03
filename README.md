@@ -1,4 +1,4 @@
-# CAPSTONE-PROJECTProject Overview
+# CAPSTONE-Project Overview
 ## SALESDATA
 
 ### Column Descriptions 
