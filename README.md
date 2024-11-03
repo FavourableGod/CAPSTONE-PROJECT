@@ -1,6 +1,6 @@
-# CAPSTONE-Project Overview
+# CAPSTONE PROJECT
 ## SALESDATA
-
+### Project Overview
 ### Column Descriptions 
 ### Data Source
 ### Tools Used
