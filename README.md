@@ -1,6 +1,9 @@
 ### CAPSTONE-PROJECTProject Overview 
+
 ##Column Descriptions 
+
 ##Data Source
+
 ##Tools Used
 ##Data Cleaning and Preparations
 ##Exploratory Data Analysis
