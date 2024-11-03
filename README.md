@@ -1,14 +1,20 @@
-### CAPSTONE-PROJECTProject Overview 
+### CAPSTONE-PROJECTProject Overview
+### SALESDATA
 
-##Column Descriptions 
+## Column Descriptions 
 
 ##Data Source
 
 ##Tools Used
+
 ##Data Cleaning and Preparations
+
 ##Exploratory Data Analysis
+
 ##Data Analysis
+
 ##Data Visualization
+
 ##My Result
 
 #Project Overview 
