@@ -25,41 +25,46 @@ Total Sales: The total quantity of items/products sold.
 Revenue: The total sales value for the order, calculated as Quantity * UnitPrice
 
 ### Tools Used
--Excel: data cleaning and summarizations using Pivot table.
+- Microsoft Excel [Download Here](https://www.microsft.com)
+1. For data cleaning
+2. summarizations
+3. Visualization.
 
--SQL: used queries for data cleaning.
+- SQL: used queries for data cleaning.
 
--Power BI:  both data cleaning and visualization.
+- Power BI:  both data cleaning, Summarization and visualization.
 
 ### Data cleaning and preparation 
  we perform the following action;
 
-Data loading and Inspection
-Handling missing variables
-Data Cleaning and Formatting
-Exploratory Data Analysis: This involved the exploratory of the Data to answer some questions about the data such as;
-	Determine the total revenue generated for each product category.
+1. Data loading and Inspection
+2. Handling missing variables
+3. Data Cleaning and Formatting
 
-	Count the number of sales transactions within each region.
-
-	Identify the product with the highest total sales value.
-
-	Compute the revenue generated for each individual product.
-
-	Summarize monthly sales figures for the current year.
-
-	List the top 5 customers based on their total spending.
-
-	Calculate each region's contribution as a percentage of overall sales.
-
-	Identify products that recorded no sales in the past quarter.
+### Exploratory Data Analysis:
+This involved the exploratory of the Data to answer some questions about the data such as;
+- 	Determine the total revenue generated for each product category.
+- Count the number of sales transactions within each region.
+- Identify the product with the highest total sales value.
+- Compute the revenue generated for each individual product.
+- Summarize monthly sales figures for the current year.
+- List the top 5 customers based on their total spending.
+- Calculate each region's contribution as a percentage of overall sales.
+- Identify products that recorded no sales in the past quarter.
 
 
 ### Data Analysis
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during the analysis
 
-select *
-From Table Name = SalesData
+```SQL
+SELECT * FROM CAPSTONE DATA
 
+````SELECT Product, SUM(Quantity * UnitPrice) AS TotalSale
+FROM [LITA Capstone Dataset]
+GROUP BY Product``
+
+ 
 ### Data Visualization
+
+
 
