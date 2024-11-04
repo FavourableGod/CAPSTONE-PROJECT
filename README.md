@@ -68,14 +68,11 @@ SELECT * FROM CAPSTONE DATA
 
 ````SELECT Product, SUM(Quantity * UnitPrice) AS TotalSale
 FROM [LITA Capstone Dataset]
-GROUP BY Product ```
+GROUP BY Products 
+```
 
 
-### Data Visualization
+### Data Vitualization
 ---
-
-
-
-
 
 
