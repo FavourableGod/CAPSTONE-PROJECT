@@ -1,4 +1,5 @@
 # CAPSTONE PROJECT
+
 ## SALESDATA
 ### Project Overview
 ### Column Descriptions 
@@ -10,7 +11,8 @@
 ### Data Visualization
 ### My Result
 
-### Project Overview 
+### Project Overview
+---
  This dataset contains transactional sales data, offering a comprehensive view of customer orders. It includes details on products, regions, and revenue, making it ideal for analyzing sales trends and regional performance. The dataset enables insights into revenue drivers and identifies high-demand products.
 
 ### Column Descriptions 
