@@ -74,5 +74,10 @@ GROUP BY Products
 
 ### Data Vitualization
 ---
+![SQL SALE DATA](https://github.com/user-attachments/assets/7e5fe9ec-7825-4521-81cd-c332cce8e5fd)
+
+
+
+![Pivot Tables SalesData](https://github.com/user-attachments/assets/df608dbe-13dd-4afc-a68a-f54d463fbf33)
 
 
