@@ -25,15 +25,7 @@
 
 ### Column Descriptions
 ---
-- CustomerID: Unique identifier for each customer.
-- CustomerName: Name of the customer (anonymized if necessary).
-- Region: Geographical area where the customer is located (e.g., North, South, East, West).
-- SubscriptionType: Type of subscription plan the customer is enrolled in (e.g., Basic, Premium).
-- SubscriptionStart: Start date of the customer's subscription.
-- SubscriptionEnd: End date of the customer's subscription.
-- Canceled: Indicates if the subscription was canceled (TRUE or FALSE).
-- Revenue: Revenue generated from the customer's subscription.
-- Subscription Duration: Duration (in days) of the subscription period.
+
 
 
 ### Tools Used
