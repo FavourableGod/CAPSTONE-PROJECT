@@ -26,7 +26,15 @@
 ### Column Descriptions
 ---
 
-
+- OrderID: A distinct identifier assigned to each order.
+- CustomerId: A distinct identifier for customers.
+- Product: Items for sale/sold.
+Region: The geographical location (e.g., North, South, East, West) 
+- OrderDate: The date when the order was made.
+- Quantity: The number of items purchased in an order.
+- UnitPrice: The price per unit of the product.
+- Total Sales: The total quantity of items/products sold.
+-Revenue: The total sales value for the order, calculated as Quantity * UnitPrice
 
 ### Tools Used
 ---
@@ -50,14 +58,7 @@
 ### Exploratory Data Analysis:
 ---
 This involved the exploratory of the Data to answer some questions about the data such as;
-- Retrieve the total number of customers from each region.
-- Find the most popular subscription type by the number of customers.
-- Find customers who canceled their subscription within 6 months.
-- Calculate the average subscription duration for all customers.
-- Find customers with subscriptions longer than 12 months.
-- Calculate total revenue by subscription type.
-- Find the top 3 regions by subscription cancellations.
-- Find the total number of active and canceled subscriptions.
+
 
 
 ### Data Analysis
