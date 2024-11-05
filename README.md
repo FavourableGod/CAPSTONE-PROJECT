@@ -58,6 +58,15 @@ Region: The geographical location (e.g., North, South, East, West)
 ### Exploratory Data Analysis:
 ---
 This involved the exploratory of the Data to answer some questions about the data such as;
+- Determine the total revenue generated for each product category.
+- Count the number of sales transactions within each region.
+- Identify the product with the highest total sales value.
+- Compute the revenue generated for each individual product.
+- Summarize monthly sales figures for the current year.
+- List the top 5 customers based on their total spending.
+- Calculate each region's contribution as a percentage of overall sales.
+- Identify products that recorded no sales in the past quarter.
+
 
 
 
