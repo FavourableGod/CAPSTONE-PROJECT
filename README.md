@@ -89,3 +89,15 @@ GROUP BY Products
 ![Pivot Tables SalesData](https://github.com/user-attachments/assets/df608dbe-13dd-4afc-a68a-f54d463fbf33)
 
 
+
+### My Result
+---
+Our analysis of sales data highlights clear patterns in customer preferences and purchasing behavior across products, time periods, and regions.
+Key findings include:
+- Product Performance: Shoes emerged as the top-selling item with over 600,000 units sold, outperforming all other categories. In contrast, socks ranked as the lowest-selling product with approximately 180,000 units sold, though they maintained steady demand.
+- Monthly and Quarterly Trends: Sales activity peaked in February, marking the highest monthly performance of the year. Strong sales were observed in Q1 and Q2; however, a decline became evident from Q3 onward, with sales decreasing by over 50% in Q4 as summer transitioned to fall.
+- Regional Distribution: Regional sales data shows the South led with 44% of total sales, followed by the East (23%), North (18%), and West (14%). This regional breakdown suggests strong customer engagement in the South, with varying levels across other regions.
+- Price Sensitivity and Customer Preference: Higher-priced products outperformed lower-priced alternatives, indicating a customer preference for perceived quality and a willingness to invest more for value.
+- Average Sales Rate: The average sales rate was 211.78%, underscoring robust customer engagement throughout the year.
+
+Overall, these insights provide valuable guidance for inventory management, pricing strategy, and targeted regional marketing efforts.
