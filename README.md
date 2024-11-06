@@ -77,17 +77,22 @@ This is where we include some basic lines of code or queries or even some of the
 ```SQL
 SELECT * FROM LITA Capstone Dataset
 ```
+----- retrieve the total sales for each product category ------
 
 ```SQL
 SELECT Product, SUM(Quantity * UnitPrice) AS TotalSale
 FROM [LITA Capstone Dataset]
 GROUP BY Product;
 ```
+------find the number of sales transactions in each region -------
+
 ```SQL
 SELECT Region, COUNT(*) AS NumberOfTransactions
 FROM [LITA Capstone Dataset]
 GROUP BY Region;
 ```
+
+------find the highest-selling product by total sales value -------
 
 ```SQL
 SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSales
@@ -95,13 +100,14 @@ FROM [LITA Capstone Dataset]
 GROUP BY Product
 ORDER BY TotalSales DESC;
 ```
+------calculate total revenue per product --------
 
 ```SQL
 SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
 FROM [LITA Capstone Dataset]
 GROUP BY Product;
 ```
-
+------calculate monthly sales totals for the current year ------
 
 ```SQL
 SELECT 
@@ -112,6 +118,8 @@ WHERE YEAR(OrderDate) = YEAR(GETDATE())
 GROUP BY MONTH(OrderDate)
 ORDER BY Month;
 ```
+--------find the top 5 customers by total purchase amount ------
+
 ```SQL
 SELECT TOP 5 
     Customer_Id, 
@@ -123,6 +131,7 @@ GROUP BY
 ORDER BY 
     TotalPurchaseAmount DESc
 ```
+--------calculate the percentage of total sales contributed by each region --------
 
 ```SQL
 SELECT 
