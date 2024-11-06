@@ -75,7 +75,7 @@ This involved the exploratory of the Data to answer some questions about the dat
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during the analysis
 
 ```SQL
-SELECT * FROM CAPSTONE DATA
+SELECT * FROM LITA Capstone Dataset
 ```
 
 ```SQL
