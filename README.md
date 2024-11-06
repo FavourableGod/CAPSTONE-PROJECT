@@ -75,12 +75,67 @@ This involved the exploratory of the Data to answer some questions about the dat
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during the analysis
 
 ```SQL
-SELECT * FROM CAPSTONE DATA 
-
-````SELECT Product, SUM(Quantity * UnitPrice) AS TotalSale
-FROM [LITA Capstone Dataset]
-GROUP BY Products 
+SELECT * FROM CAPSTONE DATA
 ```
+
+```SQL
+SELECT Product, SUM(Quantity * UnitPrice) AS TotalSale
+FROM [LITA Capstone Dataset]
+GROUP BY Product;
+```
+```SQL
+SELECT Region, COUNT(*) AS NumberOfTransactions
+FROM [LITA Capstone Dataset]
+GROUP BY Region;
+```
+
+```SQL
+SELECT TOP 1 Product, SUM(Quantity * UnitPrice) AS TotalSales
+FROM [LITA Capstone Dataset]
+GROUP BY Product
+ORDER BY TotalSales DESC;
+```
+
+```SQL
+SELECT Product, SUM(Quantity * UnitPrice) AS TotalRevenue
+FROM [LITA Capstone Dataset]
+GROUP BY Product;
+```
+
+
+```SQL
+SELECT 
+    MONTH(OrderDate) AS Month, 
+    SUM(Quantity * UnitPrice) AS MonthlySales
+FROM [LITA Capstone Dataset]
+WHERE YEAR(OrderDate) = YEAR(GETDATE())
+GROUP BY MONTH(OrderDate)
+ORDER BY Month;
+```
+```SQL
+SELECT TOP 5 
+    Customer_Id, 
+    SUM(Quantity * UnitPrice) AS TotalPurchaseAmount
+FROM 
+    [LITA Capstone Dataset]
+GROUP BY 
+    Customer_Id
+ORDER BY 
+    TotalPurchaseAmount DESc
+```
+
+```SQL
+SELECT 
+    Region,
+    SUM(Quantity * UnitPrice) AS TotalSales,
+    (SUM(Quantity * UnitPrice) * 1.0 / (SELECT SUM(Quantity * UnitPrice) FROM [LITA Capstone Dataset])) * 100
+	AS PercentageOfTotalSales
+FROM 
+    [LITA Capstone Dataset]
+GROUP BY 
+    Region;
+```
+
 
 
 ### Data Vitualization
